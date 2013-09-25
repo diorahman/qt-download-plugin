@@ -10,8 +10,8 @@ BIN = ../../bin
 
 INCLUDEPATH = $$ROOT/interfaces
 DESTDIR = $$BIN
-MOC_DIR = .moc
-OBJECTS_DIR = .obj
+MOC_DIR = moc
+OBJECTS_DIR = obj
 SOURCES += downloadplugin.cpp \
     json.cpp
 HEADERS += downloadplugin.h \
